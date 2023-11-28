@@ -1,0 +1,275 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    
+}}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.navbar_container{
+    width: 100%;
+    height: 20vh;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    padding: 18px 5px !important;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    color:rgb(106, 106, 106)!important;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s ease-in;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: red !important;
+}
+
+.nav-item .active{
+    color:  rgba(20,162,168,1)!important;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    background-color: red;
+    width: 0%;
+    height: 3px;
+    border-radius: 8px;
+    transition: 0.3s ease-out;
+}
+.nav-item:hover .nav-link::before{
+    width: 90%;
+}
+.btn_link_navbar{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 20px;
+    background-color:blue;
+    color: white;
+    font-size: 13px;
+    font-weight: 500px;
+    margin: 0px 4px 0px 10px !important;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+
+.btn_link_navbar:hover{
+    background-color: red;
+    color: white;
+}
+.top_navbar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 11px;
+}
+.ul_btn_container{
+    margin-top: 40px !important;
+
+}
+.icon_social_navbar{
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    background-color: rgba(20,162,168,1);
+    color: white;
+    line-height: 34px !important;
+    text-align: center;
+    border-radius: 16px;
+    margin: 0px 1px;
+    
+}
+.container_home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img_1{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(img/shopping-bag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img_2{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(img/fruit-wrap.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img_3{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(img/home_plasticbag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.heading_sm_home{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.heading_home{
+   
+    color:wheat;
+    font-size:25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.heading_home span{
+    color: rgba(20,162,168,1);
+    font-size:15px;
+}
+.green_font{
+    color: rgba(20,162,168,1);
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.red_font{
+    color:rgba(223,33,34,1);
+    font-size: 25px;
+    font-weight: 800;
+}
+.green_font_home{
+    color: rgba(20,162,168,1);
+
+    
+}
+.red_font_home{
+    color:rgba(223,33,34,1);
+
+}
+.para_top_navbar{
+   
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    margin: 0px 8px;
+    text-align: center;
+}
+.icon_top_navbar{
+    font-size: 15px;
+    color:rgb(0, 110, 255);
+    margin: 0px 8px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .box{
+        width: 100% !important;
+        background: white;
+        margin-top: 10px;
+    }
+
+    #aboutus{
+        background: wheat;
+        color: black;
+      
+    }
+    #aboutus p{
+        color:rgba(0,0,0,.5) ;
+    }
+    #aboutus h1{
+        font-weight: 800;
+        font-size: 50px;
+    }
+    #aboutus img{
+        
+            max-width:100%;
+            width:100%;
+          
+    }
+
+
+
+    .notes{
+        color: red;
+        font-size: 15px;
+        
+    }
+    .products_bg{
+        background-color: rgb(189, 245, 255);
+        text-align: center;
+    }
+
+
+
+    .contactinfo{
+        background-color: rgba(20,162,168,1);
+        color: white;
+     }
+     form{
+        display: flex;
+        flex-direction: column;
+        }
+     .timings{
+         background-color: rgba(20,162,168,1);
+         color: white;
+     }
+
+     #contact{
+        background-color:white;
+     }
+     #contact input{
+        margin: 10px 0px;
+    }
+    #contact textarea{
+        margin: 10px 0px;
+    }
+    #contact p{
+        color:rgba(0, 0, 0, 0.75) ;
+    }
+    #contact img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    footer{
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0,.8);
+        
+        text-align: center;
+        color: white;
+         
+    }
